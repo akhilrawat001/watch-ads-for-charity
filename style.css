@@ -1,5 +1,52 @@
-.m-heading__1{
-	font-family:Open Sans,serfi;
-	font-size:48px;
-	line-height:32px;
+* {
+	box-sizing: border-box;
+	font-family: Open Sans, serif;
+	background: transparent;
+	letter-spacing: 0;
+	color: #4A4A4A;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: #FFFFFF;
+}
+
+body {
+	background: #222831;
+}
+
+.m-heading__1 {
+	font-family: Merriweather, serif;
+	color: #eeeeee;
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.m-para {
+	color: #d65a31;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 0;
+	opacity: 1;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.m-para--last {
+	margin-bottom: 0 !important;
+}
+
+.l-section {
+	max-width: 800px;
+	margin: auto;
+	padding: 12px;
 }
